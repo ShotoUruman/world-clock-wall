@@ -1,0 +1,21 @@
+# Local builds and generated test evidence
+*.exe
+*.pdb
+*.zip
+*.png
+*.lnk
+/verification/
+/backups/
+/test-results.txt
+/*.json
+__pycache__/
+*.pyc
+
+# Machine-specific launch/update helpers and user settings
+/launch-without-focus.py
+/install-*-without-focus.py
+/settings.xml*
+.env
+.env.*
+*.token
+*.key
